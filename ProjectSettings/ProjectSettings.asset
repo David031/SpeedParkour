@@ -648,6 +648,7 @@ PlayerSettings:
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
     Build: 1
+    Collab: 1
     UNet: 1
   luminIcon:
     m_Name: 
@@ -661,10 +662,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 685e6af1-f401-47eb-ad68-83f3e5dd5960
   framebufferDepthMemorylessMode: 0
-  projectName: Platformer3DClient
-  organizationId: 
+  projectName: SpeedParkour
+  organizationId: dave031
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
