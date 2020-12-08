@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - FlythroughCam
+  - Fire
+  - Laser
   layers:
   - Default
   - TransparentFX
