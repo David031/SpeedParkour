@@ -14,7 +14,10 @@ namespace Gamekit3D {
 
         }
         void OnCollisionEnter (Collision other) {
-            Destroy(gameObject);
+            Debug.Log(other.gameObject.tag);
+            if(other.gameObject.tag != "Player"){
+                Destroy(gameObject);
+            }
         }
     }
 }
