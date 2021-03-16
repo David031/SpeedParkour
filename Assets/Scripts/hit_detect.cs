@@ -14,10 +14,17 @@ namespace Gamekit3D {
 
         }
         void OnTriggerEnter (Collider other) {
-            var pc = other.GetComponent<PlayerController> ();
+            var pc = other.GetComponent<PlayerController> ();      
             if (pc != null) {
                 pc.Die (new Damageable.DamageMessage ());
             }
+        }
+        void OnCollisionEnter (Collision other) {
+            if(other.gameObject.tag == "Player"){
+                var pc = other.gameObject.GetComponent<PlayerController> ();      
+                pc.Die (new Damageable.DamageMessage ());
+            }
+             Destroy(gameObject);
         }
     }
 }
