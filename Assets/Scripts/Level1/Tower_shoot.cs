@@ -14,13 +14,12 @@ public class Tower_shoot : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        transform.LookAt(player.transform);
+        // transform.LookAt(player.transform);
         Timer -= 1 * Time.deltaTime;
         if (Timer <= 0) {
             Rigidbody p = Instantiate (projectile, transform.position, transform.rotation);
             p.velocity = transform.forward * speed;
             Timer = 2;
         };
-
     }
 }
