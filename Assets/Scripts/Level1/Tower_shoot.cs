@@ -5,21 +5,22 @@ using UnityEngine;
 public class Tower_shoot : MonoBehaviour {
     public Rigidbody projectile;
     public float speed = 40;
-    public GameObject player;
+    public GameObject target;
     public float Timer = 2;
+    private float timer;
     // This script will simply instantiate the Prefab when the game starts.
     void Start () {
-
+        timer = Timer;
     }
 
     // Update is called once per frame
     void Update () {
-        // transform.LookAt(player.transform);
-        Timer -= 1 * Time.deltaTime;
-        if (Timer <= 0) {
+        transform.LookAt(target.transform);
+        timer -= 1 * Time.deltaTime;
+        if (timer <= 0) {
             Rigidbody p = Instantiate (projectile, transform.position, transform.rotation);
             p.velocity = transform.forward * speed;
-            Timer = 2;
+            timer = Timer;
         };
     }
 }

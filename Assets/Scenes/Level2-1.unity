@@ -1451,7 +1451,7 @@ MonoBehaviour:
   projectile: {fileID: 3807750500270155299, guid: 5ffaf02a635759b408d3d35c4cdc2ffc,
     type: 3}
   speed: 20
-  player: {fileID: 2034418527}
+  target: {fileID: 602638384}
   Timer: 10
 --- !u!23 &251768094
 MeshRenderer:
