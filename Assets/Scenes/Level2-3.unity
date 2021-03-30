@@ -1015,7 +1015,7 @@ MonoBehaviour:
   coolDown: 0
   startDelay: 0
   loopType: 2
-  duration: 2
+  duration: 10
   accelCurve:
     serializedVersion: 2
     m_Curve:
@@ -3333,7 +3333,7 @@ MonoBehaviour:
   coolDown: 0
   startDelay: 0
   loopType: 2
-  duration: 2
+  duration: 10
   accelCurve:
     serializedVersion: 2
     m_Curve:
@@ -3684,7 +3684,7 @@ MonoBehaviour:
   coolDown: 0
   startDelay: 0
   loopType: 2
-  duration: 2
+  duration: 10
   accelCurve:
     serializedVersion: 2
     m_Curve:
