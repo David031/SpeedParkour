@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Gamekit3D
 {
@@ -8,7 +9,7 @@ namespace Gamekit3D
     public class DeathVolume : MonoBehaviour
     {
         public new AudioSource audio;
-
+        public bool restart = false;
 
         void OnTriggerEnter(Collider other)
         {
@@ -16,6 +17,9 @@ namespace Gamekit3D
             if (pc != null)
             {
                 pc.Die(new Damageable.DamageMessage());
+                if (restart){
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                }
             }
             if (audio != null)
             {

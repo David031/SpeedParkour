@@ -24,30 +24,30 @@ public class rotateMove : MonoBehaviour
         }
     }
 
-    // private void OnCollisionEnter(Collision other) {
-    //     // if(other.gameObject.tag == "Player"){
-    //         isTouch = true;
-    //     // }
-    //      Debug.Log("Touch");
-    // }
-    // private void OnCollisionExit(Collision other) {
-    //         //  if(other.gameObject.tag == "Player"){
-    //         isTouch = false;
-    //     // }
-    //     Debug.Log("Exit");
-    // }
-    private void OnTriggerEnter(Collider other) {
-        // if(other.gameObject.tag == "Player"){
+    private void OnCollisionEnter(Collision other) {
+        if(other.gameObject.tag == "Player"){
             isTouch = true;
-        // }
-         Debug.Log("TT Touch");
+        }
+         Debug.Log("Touch");
     }
-    private void OnTriggerExit(Collider other) {
-            //  if(other.gameObject.tag == "Player"){
+    private void OnCollisionExit(Collision other) {
+             if(other.gameObject.tag == "Player"){
             isTouch = false;
-        // }
-        Debug.Log("TT Exit");
+        }
+        Debug.Log("Exit");
     }
+    // private void OnTriggerEnter(Collider other) {
+    //     if(other.gameObject.tag == "Player"){
+    //         isTouch = true;
+    //     }
+    //      Debug.Log("TT Touch");
+    // }
+    // private void OnTriggerExit(Collider other) {
+    //          if(other.gameObject.tag == "Player"){
+    //         isTouch = false;
+    //     }
+    //     Debug.Log("TT Exit");
+    // }
     // private void OnTriggerStay(Collider other)
     // {
     // Debug.Log("stay");
