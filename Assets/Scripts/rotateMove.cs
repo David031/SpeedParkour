@@ -16,23 +16,23 @@ public class rotateMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(isTouch);
-        if(isTouch == true){
-            player.transform.SetParent(plane.transform);
-        }else{
-            player.transform.SetParent(null);
-        }
+        // Debug.Log(isTouch);
+        // if(isTouch == true){
+        //     player.transform.SetParent(plane.transform);
+        // }else{
+        //     player.transform.SetParent(null);
+        // }
     }
 
     private void OnCollisionEnter(Collision other) {
         if(other.gameObject.tag == "Player"){
-            isTouch = true;
+           player.transform.SetParent(plane.transform);
         }
          Debug.Log("Touch");
     }
     private void OnCollisionExit(Collision other) {
              if(other.gameObject.tag == "Player"){
-            isTouch = false;
+             player.transform.SetParent(null);
         }
         Debug.Log("Exit");
     }
