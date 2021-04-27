@@ -6,14 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/3DGamekitLite/Scenes/_TemplateScene.unity
-    guid: a93c8f727f3196941b92761d8a44628c
-  - enabled: 1
-    path: Assets/Sence.unity
-    guid: 524efdcdcc234ef47ab9ada8ea94078c
-  - enabled: 1
-    path: Assets/Sence1.unity
-    guid: 22f39aa45611f7b4ba89b0527af0d33c
+    path: Assets/Scenes/Level1.unity
+    guid: 6db981725a58dec40a7152150583f903
   - enabled: 1
     path: Assets/Scenes/Level2-1.unity
     guid: 5a465eff1a735ae4a8ba598afcfd49c1
