@@ -140,7 +140,12 @@ namespace Gamekit3D {
             m_CharCtrl = GetComponent<CharacterController> ();
 
             meleeWeapon.SetOwner (gameObject);
-
+            foreach (Animator a in GetComponentsInChildren<Animator>()) {
+                if (a != m_Animator) {
+                    m_Animator.avatar = a.avatar;
+                    a.enabled = false;
+                }
+            }
             s_Instance = this;
         }
 
