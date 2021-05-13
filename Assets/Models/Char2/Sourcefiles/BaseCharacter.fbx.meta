@@ -1,188 +1,542 @@
 fileFormatVersion: 2
 guid: d8e6717bd7507b44c9fc5a0a6749ec6c
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Armature
-    100002: //RootNode
-    100004: bikini
-    100006: Body
-    100008: Chest
-    100010: Fingers1L
-    100012: Fingers1R
-    100014: Fingers2L
-    100016: Fingers2L_end
-    100018: Fingers2R
-    100020: Fingers2R_end
-    100022: FootL
-    100024: FootL_end
-    100026: FootR
-    100028: FootR_end
-    100030: Hair1
-    100032: Hair2
-    100034: Hair3
-    100036: Hair4
-    100038: Hair5
-    100040: HandL
-    100042: HandR
-    100044: Head
-    100046: Head_end
-    100048: Hip
-    100050: Hip_end
-    100052: IndexFinger1L
-    100054: IndexFinger1R
-    100056: IndexFinger2L
-    100058: IndexFinger2L_end
-    100060: IndexRinger2R
-    100062: IndexRinger2R_end
-    100064: LoweArmL
-    100066: LoweArmR
-    100068: Neck
-    100070: ShinL
-    100072: ShinR
-    100074: ShoulderL
-    100076: ShoulderR
-    100078: Spine
-    100080: ThighL
-    100082: ThighR
-    100084: Thumb1
-    100086: Thumb1R
-    100088: Thumb2
-    100090: Thumb2_end
-    100092: Thumb2R
-    100094: Thumb2R_end
-    100096: underwear
-    100098: UpperArmL
-    100100: UpperArmR
-    100102: Buttocks
-    100104: Buttocks_end
-    100106: Chest.L
-    100108: Chest.L_end
-    100110: Chest.R
-    100112: Chest.R_end
-    100114: Hip.L
-    100116: Hip.L_end
-    100118: Hip.R
-    100120: Hip.R_end
-    100122: InnerThigh.L
-    100124: InnerThigh.L_end
-    100126: InnerThigh.R
-    100128: InnerThigh.R_end
-    100130: Base_bikini
-    100132: Base_Body
-    100134: Base_underwear
-    400000: Armature
-    400002: //RootNode
-    400004: bikini
-    400006: Body
-    400008: Chest
-    400010: Fingers1L
-    400012: Fingers1R
-    400014: Fingers2L
-    400016: Fingers2L_end
-    400018: Fingers2R
-    400020: Fingers2R_end
-    400022: FootL
-    400024: FootL_end
-    400026: FootR
-    400028: FootR_end
-    400030: Hair1
-    400032: Hair2
-    400034: Hair3
-    400036: Hair4
-    400038: Hair5
-    400040: HandL
-    400042: HandR
-    400044: Head
-    400046: Head_end
-    400048: Hip
-    400050: Hip_end
-    400052: IndexFinger1L
-    400054: IndexFinger1R
-    400056: IndexFinger2L
-    400058: IndexFinger2L_end
-    400060: IndexRinger2R
-    400062: IndexRinger2R_end
-    400064: LoweArmL
-    400066: LoweArmR
-    400068: Neck
-    400070: ShinL
-    400072: ShinR
-    400074: ShoulderL
-    400076: ShoulderR
-    400078: Spine
-    400080: ThighL
-    400082: ThighR
-    400084: Thumb1
-    400086: Thumb1R
-    400088: Thumb2
-    400090: Thumb2_end
-    400092: Thumb2R
-    400094: Thumb2R_end
-    400096: underwear
-    400098: UpperArmL
-    400100: UpperArmR
-    400102: Buttocks
-    400104: Buttocks_end
-    400106: Chest.L
-    400108: Chest.L_end
-    400110: Chest.R
-    400112: Chest.R_end
-    400114: Hip.L
-    400116: Hip.L_end
-    400118: Hip.R
-    400120: Hip.R_end
-    400122: InnerThigh.L
-    400124: InnerThigh.L_end
-    400126: InnerThigh.R
-    400128: InnerThigh.R_end
-    400130: Base_bikini
-    400132: Base_Body
-    400134: Base_underwear
-    2100000: bikini
-    2100002: F00_000_Hair_00_HAIR.003
-    2100004: Image_20.005
-    2100006: Image_20.004
-    2100008: mouth_inside
-    2100010: Eye_reflection
-    2100012: Eyeliner
-    2100014: Eyelashes
-    2100016: Eyebrows
-    2100018: EyeBack
-    2100020: Eye
-    2100022: Face
-    2100024: Body
-    2100026: Hair_head
-    2100028: Image_20.001
-    4300000: underwear
-    4300002: Hair2
-    4300004: Hair1
-    4300006: Hair3
-    4300008: bikini
-    4300010: Body
-    4300012: Hair4
-    4300014: Hair5
-    4300016: Base_underwear
-    4300018: Base_bikini
-    4300020: Base_Body
-    7400000: Armature|ArmatureAction
-    7400002: Armature|short_shirt:Tops|Take 001|BaseLayer
-    9500000: //RootNode
-    13700000: bikini
-    13700002: Body
-    13700004: Hair1
-    13700006: Hair2
-    13700008: Hair3
-    13700010: Hair4
-    13700012: Hair5
-    13700014: underwear
-    13700016: Base_bikini
-    13700018: Base_Body
-    13700020: Base_underwear
-    2186277476908879412: ImportLogs
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: bikini
+  - first:
+      1: 100006
+    second: Body
+  - first:
+      1: 100008
+    second: Chest
+  - first:
+      1: 100010
+    second: Fingers1L
+  - first:
+      1: 100012
+    second: Fingers1R
+  - first:
+      1: 100014
+    second: Fingers2L
+  - first:
+      1: 100016
+    second: Fingers2L_end
+  - first:
+      1: 100018
+    second: Fingers2R
+  - first:
+      1: 100020
+    second: Fingers2R_end
+  - first:
+      1: 100022
+    second: FootL
+  - first:
+      1: 100024
+    second: FootL_end
+  - first:
+      1: 100026
+    second: FootR
+  - first:
+      1: 100028
+    second: FootR_end
+  - first:
+      1: 100030
+    second: Hair1
+  - first:
+      1: 100032
+    second: Hair2
+  - first:
+      1: 100034
+    second: Hair3
+  - first:
+      1: 100036
+    second: Hair4
+  - first:
+      1: 100038
+    second: Hair5
+  - first:
+      1: 100040
+    second: HandL
+  - first:
+      1: 100042
+    second: HandR
+  - first:
+      1: 100044
+    second: Head
+  - first:
+      1: 100046
+    second: Head_end
+  - first:
+      1: 100048
+    second: Hip
+  - first:
+      1: 100050
+    second: Hip_end
+  - first:
+      1: 100052
+    second: IndexFinger1L
+  - first:
+      1: 100054
+    second: IndexFinger1R
+  - first:
+      1: 100056
+    second: IndexFinger2L
+  - first:
+      1: 100058
+    second: IndexFinger2L_end
+  - first:
+      1: 100060
+    second: IndexRinger2R
+  - first:
+      1: 100062
+    second: IndexRinger2R_end
+  - first:
+      1: 100064
+    second: LoweArmL
+  - first:
+      1: 100066
+    second: LoweArmR
+  - first:
+      1: 100068
+    second: Neck
+  - first:
+      1: 100070
+    second: ShinL
+  - first:
+      1: 100072
+    second: ShinR
+  - first:
+      1: 100074
+    second: ShoulderL
+  - first:
+      1: 100076
+    second: ShoulderR
+  - first:
+      1: 100078
+    second: Spine
+  - first:
+      1: 100080
+    second: ThighL
+  - first:
+      1: 100082
+    second: ThighR
+  - first:
+      1: 100084
+    second: Thumb1
+  - first:
+      1: 100086
+    second: Thumb1R
+  - first:
+      1: 100088
+    second: Thumb2
+  - first:
+      1: 100090
+    second: Thumb2_end
+  - first:
+      1: 100092
+    second: Thumb2R
+  - first:
+      1: 100094
+    second: Thumb2R_end
+  - first:
+      1: 100096
+    second: underwear
+  - first:
+      1: 100098
+    second: UpperArmL
+  - first:
+      1: 100100
+    second: UpperArmR
+  - first:
+      1: 100102
+    second: Buttocks
+  - first:
+      1: 100104
+    second: Buttocks_end
+  - first:
+      1: 100106
+    second: Chest.L
+  - first:
+      1: 100108
+    second: Chest.L_end
+  - first:
+      1: 100110
+    second: Chest.R
+  - first:
+      1: 100112
+    second: Chest.R_end
+  - first:
+      1: 100114
+    second: Hip.L
+  - first:
+      1: 100116
+    second: Hip.L_end
+  - first:
+      1: 100118
+    second: Hip.R
+  - first:
+      1: 100120
+    second: Hip.R_end
+  - first:
+      1: 100122
+    second: InnerThigh.L
+  - first:
+      1: 100124
+    second: InnerThigh.L_end
+  - first:
+      1: 100126
+    second: InnerThigh.R
+  - first:
+      1: 100128
+    second: InnerThigh.R_end
+  - first:
+      1: 100130
+    second: Base_bikini
+  - first:
+      1: 100132
+    second: Base_Body
+  - first:
+      1: 100134
+    second: Base_underwear
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: bikini
+  - first:
+      4: 400006
+    second: Body
+  - first:
+      4: 400008
+    second: Chest
+  - first:
+      4: 400010
+    second: Fingers1L
+  - first:
+      4: 400012
+    second: Fingers1R
+  - first:
+      4: 400014
+    second: Fingers2L
+  - first:
+      4: 400016
+    second: Fingers2L_end
+  - first:
+      4: 400018
+    second: Fingers2R
+  - first:
+      4: 400020
+    second: Fingers2R_end
+  - first:
+      4: 400022
+    second: FootL
+  - first:
+      4: 400024
+    second: FootL_end
+  - first:
+      4: 400026
+    second: FootR
+  - first:
+      4: 400028
+    second: FootR_end
+  - first:
+      4: 400030
+    second: Hair1
+  - first:
+      4: 400032
+    second: Hair2
+  - first:
+      4: 400034
+    second: Hair3
+  - first:
+      4: 400036
+    second: Hair4
+  - first:
+      4: 400038
+    second: Hair5
+  - first:
+      4: 400040
+    second: HandL
+  - first:
+      4: 400042
+    second: HandR
+  - first:
+      4: 400044
+    second: Head
+  - first:
+      4: 400046
+    second: Head_end
+  - first:
+      4: 400048
+    second: Hip
+  - first:
+      4: 400050
+    second: Hip_end
+  - first:
+      4: 400052
+    second: IndexFinger1L
+  - first:
+      4: 400054
+    second: IndexFinger1R
+  - first:
+      4: 400056
+    second: IndexFinger2L
+  - first:
+      4: 400058
+    second: IndexFinger2L_end
+  - first:
+      4: 400060
+    second: IndexRinger2R
+  - first:
+      4: 400062
+    second: IndexRinger2R_end
+  - first:
+      4: 400064
+    second: LoweArmL
+  - first:
+      4: 400066
+    second: LoweArmR
+  - first:
+      4: 400068
+    second: Neck
+  - first:
+      4: 400070
+    second: ShinL
+  - first:
+      4: 400072
+    second: ShinR
+  - first:
+      4: 400074
+    second: ShoulderL
+  - first:
+      4: 400076
+    second: ShoulderR
+  - first:
+      4: 400078
+    second: Spine
+  - first:
+      4: 400080
+    second: ThighL
+  - first:
+      4: 400082
+    second: ThighR
+  - first:
+      4: 400084
+    second: Thumb1
+  - first:
+      4: 400086
+    second: Thumb1R
+  - first:
+      4: 400088
+    second: Thumb2
+  - first:
+      4: 400090
+    second: Thumb2_end
+  - first:
+      4: 400092
+    second: Thumb2R
+  - first:
+      4: 400094
+    second: Thumb2R_end
+  - first:
+      4: 400096
+    second: underwear
+  - first:
+      4: 400098
+    second: UpperArmL
+  - first:
+      4: 400100
+    second: UpperArmR
+  - first:
+      4: 400102
+    second: Buttocks
+  - first:
+      4: 400104
+    second: Buttocks_end
+  - first:
+      4: 400106
+    second: Chest.L
+  - first:
+      4: 400108
+    second: Chest.L_end
+  - first:
+      4: 400110
+    second: Chest.R
+  - first:
+      4: 400112
+    second: Chest.R_end
+  - first:
+      4: 400114
+    second: Hip.L
+  - first:
+      4: 400116
+    second: Hip.L_end
+  - first:
+      4: 400118
+    second: Hip.R
+  - first:
+      4: 400120
+    second: Hip.R_end
+  - first:
+      4: 400122
+    second: InnerThigh.L
+  - first:
+      4: 400124
+    second: InnerThigh.L_end
+  - first:
+      4: 400126
+    second: InnerThigh.R
+  - first:
+      4: 400128
+    second: InnerThigh.R_end
+  - first:
+      4: 400130
+    second: Base_bikini
+  - first:
+      4: 400132
+    second: Base_Body
+  - first:
+      4: 400134
+    second: Base_underwear
+  - first:
+      21: 2100000
+    second: bikini
+  - first:
+      21: 2100002
+    second: F00_000_Hair_00_HAIR.003
+  - first:
+      21: 2100004
+    second: Image_20.005
+  - first:
+      21: 2100006
+    second: Image_20.004
+  - first:
+      21: 2100008
+    second: mouth_inside
+  - first:
+      21: 2100010
+    second: Eye_reflection
+  - first:
+      21: 2100012
+    second: Eyeliner
+  - first:
+      21: 2100014
+    second: Eyelashes
+  - first:
+      21: 2100016
+    second: Eyebrows
+  - first:
+      21: 2100018
+    second: EyeBack
+  - first:
+      21: 2100020
+    second: Eye
+  - first:
+      21: 2100022
+    second: Face
+  - first:
+      21: 2100024
+    second: Body
+  - first:
+      21: 2100026
+    second: Hair_head
+  - first:
+      21: 2100028
+    second: Image_20.001
+  - first:
+      43: 4300000
+    second: underwear
+  - first:
+      43: 4300002
+    second: Hair2
+  - first:
+      43: 4300004
+    second: Hair1
+  - first:
+      43: 4300006
+    second: Hair3
+  - first:
+      43: 4300008
+    second: bikini
+  - first:
+      43: 4300010
+    second: Body
+  - first:
+      43: 4300012
+    second: Hair4
+  - first:
+      43: 4300014
+    second: Hair5
+  - first:
+      43: 4300016
+    second: Base_underwear
+  - first:
+      43: 4300018
+    second: Base_bikini
+  - first:
+      43: 4300020
+    second: Base_Body
+  - first:
+      74: 7400000
+    second: Armature|ArmatureAction
+  - first:
+      74: 7400002
+    second: Armature|short_shirt:Tops|Take 001|BaseLayer
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: bikini
+  - first:
+      137: 13700002
+    second: Body
+  - first:
+      137: 13700004
+    second: Hair1
+  - first:
+      137: 13700006
+    second: Hair2
+  - first:
+      137: 13700008
+    second: Hair3
+  - first:
+      137: 13700010
+    second: Hair4
+  - first:
+      137: 13700012
+    second: Hair5
+  - first:
+      137: 13700014
+    second: underwear
+  - first:
+      137: 13700016
+    second: Base_bikini
+  - first:
+      137: 13700018
+    second: Base_Body
+  - first:
+      137: 13700020
+    second: Base_underwear
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -215,25 +569,28 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -242,259 +599,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
-    human:
-    - boneName: Armature
-      humanName: Hips
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: ThighL
-      humanName: LeftUpperLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: ThighR
-      humanName: RightUpperLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: ShinL
-      humanName: LeftLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: ShinR
-      humanName: RightLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: FootL
-      humanName: LeftFoot
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: FootR
-      humanName: RightFoot
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Spine
-      humanName: Spine
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Chest
-      humanName: Chest
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Neck
-      humanName: Neck
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Head
-      humanName: Head
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: ShoulderL
-      humanName: LeftShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: ShoulderR
-      humanName: RightShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: UpperArmL
-      humanName: LeftUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: UpperArmR
-      humanName: RightUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LoweArmL
-      humanName: LeftLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LoweArmR
-      humanName: RightLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: HandL
-      humanName: LeftHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: HandR
-      humanName: RightHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Thumb1
-      humanName: Left Thumb Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Thumb2
-      humanName: Left Thumb Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: IndexFinger1L
-      humanName: Left Index Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: IndexFinger2L
-      humanName: Left Index Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Fingers1L
-      humanName: Left Little Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Fingers2L
-      humanName: Left Little Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Thumb1R
-      humanName: Right Thumb Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Thumb2R
-      humanName: Right Thumb Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: IndexFinger1R
-      humanName: Right Index Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: IndexRinger2R
-      humanName: Right Index Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Fingers1R
-      humanName: Right Little Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Fingers2R
-      humanName: Right Little Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
+    serializedVersion: 3
+    human: []
     skeleton:
     - name: BaseCharacter(Clone)
       parentName: 
@@ -823,13 +932,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
