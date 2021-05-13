@@ -3280,6 +3280,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &891440504 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1116171338045874, guid: 9d620787554a948e3876fe7dbdba24e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398335711}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &894888000 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18acae1864b611c4bb4f18f723985d50,
@@ -6649,10 +6655,20 @@ PrefabInstance:
       propertyPath: cameraSettings
       value: 
       objectReference: {fileID: 34643024}
+    - target: {fileID: 114579421511091938, guid: 9d620787554a948e3876fe7dbdba24e8,
+        type: 3}
+      propertyPath: jumpSpeed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 114642486581907182, guid: 9d620787554a948e3876fe7dbdba24e8,
         type: 3}
       propertyPath: toFollow
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 143281348168218644, guid: 9d620787554a948e3876fe7dbdba24e8,
+        type: 3}
+      propertyPath: m_MinMoveDistance
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 2587577992758511135, guid: 9d620787554a948e3876fe7dbdba24e8,
         type: 3}
@@ -8075,6 +8091,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1398335711}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1869606419 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8313047776888776541, guid: 9d620787554a948e3876fe7dbdba24e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398335711}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1869606422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869606419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73367497fed37b140a366d89e8cc6bc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectTime: 0
+  EllenRespawnMaterials: []
+  respawnParticles: {fileID: 891440504}
 --- !u!1 &1896648214
 GameObject:
   m_ObjectHideFlags: 0
