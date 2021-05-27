@@ -6699,7 +6699,17 @@ PrefabInstance:
     - target: {fileID: 143281348168218644, guid: 9d620787554a948e3876fe7dbdba24e8,
         type: 3}
       propertyPath: m_MinMoveDistance
-      value: 0.01
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 143281348168218644, guid: 9d620787554a948e3876fe7dbdba24e8,
+        type: 3}
+      propertyPath: m_SkinWidth
+      value: 0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 143281348168218644, guid: 9d620787554a948e3876fe7dbdba24e8,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2587577992758511135, guid: 9d620787554a948e3876fe7dbdba24e8,
         type: 3}
